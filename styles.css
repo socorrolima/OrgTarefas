@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Corpo da página */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f7fa;
+  }
+  
+  /* Container centralizado */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Logo */
+  .logo {
+    width: 250px;
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  /* Campo de input */
+ /* Campo de input */
+.tarefa-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .tarefa-input:focus {
+    border-color: #5c6bc0;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FFC801;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ccbb20;
+  }
+  
+  #listaTarefas {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+  }
+  
+  #listaTarefas li {
+    background: #eef1f8;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  
+  .delete-btn {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: #ff4d4f;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    color: #d32f2f;
+  }
+  
